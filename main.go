@@ -2,13 +2,14 @@ package main
 
 import (
 	"flag"
-	"github.com/BurntSushi/toml"
-	"github.com/fgerling/gobs"
-	"gitlab.suse.de/fgerling/qam-caasp-concourse-resource/pkg/config"
 	"io/ioutil"
 	"log"
 	"os"
 	"text/template"
+
+	"github.com/BurntSushi/toml"
+	"github.com/fgerling/github-cards/internal/config"
+	obs "github.com/fgerling/gobs"
 )
 
 func main() {

@@ -2,5 +2,3 @@ github.com/BurntSushi/toml v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/fgerling/gobs v0.0.0-20191015155250-e50ea6307b8c h1:GsilL9XcwI3stIqA4ZCwseHdzffSqy6p0AvSIpGiH/g=
 github.com/fgerling/gobs v0.0.0-20191015155250-e50ea6307b8c/go.mod h1:5OJxGWJ2uL5rj0zYxx3EljuVTBkpSZo4T/ssiP2/Xgk=
-gitlab.suse.de/fgerling/qam-caasp-concourse-resource v0.0.0-20191015140931-816d2e2258f7 h1:R7Ks7zsgsTImS/XWcxKhRmuWpMwUmPHh54TMhFADqNw=
-gitlab.suse.de/fgerling/qam-caasp-concourse-resource v0.0.0-20191015140931-816d2e2258f7/go.mod h1:2T72pJYDV/l6HlzLhFmst6rH+Db6ThWWAdVzQz2TDtU=
