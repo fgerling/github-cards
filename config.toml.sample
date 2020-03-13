@@ -1,0 +1,4 @@
+Username = "OBS-USERNAME"
+Password = "OBS-PASSWORD"
+Group = "qam-caasp"
+Server = "https://api.suse.de/"

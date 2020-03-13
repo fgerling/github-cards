@@ -54,7 +54,7 @@ func main() {
 		Request obs.ReleaseRequest
 		Summary string
 	}
-	tmpl, err := template.New("list-requests").Parse("{{if eq .Request.Priority \"important\"}}!{{else}} {{end}} https://maintenance.suse.de/request/{{.Request.Id}} ({{.Summary}})\n")
+	tmpl, err := template.New("list-requests").Parse("{{if eq .Request.Priority \"important\"}}!{{else}} {{end}} RR#{{.Request.Id}} {{.Summary}}\nhttps://maintenance.suse.de/request/{{.Request.Id}}\n\n")
 	if err != nil {
 		log.Fatal(err)
 	}
